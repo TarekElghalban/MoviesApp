@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+:root{
+--bg-color:#131722;
+--main-font: 'Roboto Slab', serif;
+--light-bg:#24baef;
+--font-color:#fff;
+}
+.navbar{
+  color: var(--font-color);
+  background-color: var(--bg-color);
+}
+.my-input{
+  background-color: transparent;
+  border: 1px solid #a8a8a83d;
+  color: #fff;
+}
+.text{
+  color: #6fb3cd;
+}
+.vote{
+  background-color: var(--light-bg);
+}
+.brdr{
+border: 1px solid var(--font-color);
+background-color: var(--font-color);
+}
+body{
+background-color: var(--bg-color);
+font-family: var(--main-font);
+color: var(--font-color);
+}
+
+a {
+color: var(--font-color);
+text-decoration: none;
+}
+
+a:hover{
+
+color:#24baef;
+
+}
